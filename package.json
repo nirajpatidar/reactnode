@@ -30,8 +30,7 @@
     "eject": "react-scripts eject",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "server": "nodemon src/server/index.js",
-    "dev": "\"npm run server npm run client",
-    "heroku-postbuild": "webpack -p"
+    "dev": "\"npm run server npm run client"
   },
   "eslintConfig": {
     "extends": "react-app"
